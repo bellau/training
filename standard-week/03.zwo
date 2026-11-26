@@ -1,0 +1,19 @@
+<workout_file>
+    <author>Sur-mesure</author>
+    <name>3 - Jeudi Tempo Force 3x10min</name>
+    <description>3 blocs de 10 min à 81% FTP (~210W) : 5 min en force (55-60 rpm) + 5 min fluides (85-90 rpm). Récup 4 min.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.72"/>
+        <SteadyState Duration="180" Power="0.55"/>
+        <SteadyState Duration="300" Power="0.81" Cadence="58"/>
+        <SteadyState Duration="300" Power="0.81" Cadence="88"/>
+        <SteadyState Duration="240" Power="0.55" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.81" Cadence="58"/>
+        <SteadyState Duration="300" Power="0.81" Cadence="88"/>
+        <SteadyState Duration="240" Power="0.55" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.81" Cadence="58"/>
+        <SteadyState Duration="300" Power="0.81" Cadence="88"/>
+        <Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.45"/>
+    </workout>
+</workout_file>

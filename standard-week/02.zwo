@@ -1,0 +1,11 @@
+<workout_file>
+    <author>Sur-mesure</author>
+    <name>2 - Mercredi Z2 Stricte 1h10</name>
+    <description>Endurance fondamentale calme à 62% FTP (~161W). Garder impérativement le cardio sous 145 bpm.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.62"/>
+        <SteadyState Duration="3000" Power="0.62"/>
+        <Cooldown Duration="600" PowerLow="0.62" PowerHigh="0.45"/>
+    </workout>
+</workout_file>

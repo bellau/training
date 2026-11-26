@@ -1,0 +1,17 @@
+<workout_file>
+    <author>Sur-mesure</author>
+    <name>1A - Mardi VO2max 3x16 (30/30)</name>
+    <description>Échauffement progressif puis 3 blocs de 16x(30s à 120% FTP / 30s à 55% FTP). Récup 5 min entre les blocs.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.72"/>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="1.05" OffDuration="60" OffPower="0.55"/>
+        <SteadyState Duration="180" Power="0.50"/>
+        <IntervalsT Repeat="16" OnDuration="30" OnPower="1.20" OffDuration="30" OffPower="0.55"/>
+        <SteadyState Duration="300" Power="0.50"/>
+        <IntervalsT Repeat="16" OnDuration="30" OnPower="1.20" OffDuration="30" OffPower="0.55"/>
+        <SteadyState Duration="300" Power="0.50"/>
+        <IntervalsT Repeat="16" OnDuration="30" OnPower="1.20" OffDuration="30" OffPower="0.55"/>
+        <Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.45"/>
+    </workout>
+</workout_file>
